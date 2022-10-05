@@ -34,12 +34,33 @@ a really smooth error middleware, and layered architecture.
 
 ## :book: Using the template and installing into your computer
 
+   1. Use this repository as a template for your own project
+   
+   First of all, since this repository is a template, you have to apply it as a new project so that you can use it in your own project.
+   
+   To do so, you have to click the green "Use this template" button in the beginning of the repository:
+   <img src="https://i.imgur.com/iOTkP4R.png" />
+   
+   Then, you will be able to create a new GitHub repository the way you want to:
+   <img src="https://i.imgur.com/uqXGYM5.png" />
+   
+   2. Clone the project into your machine
+   
+   Once you have created your own repository, download it into your computer by running
+   
+   ```
+   git clone https://github.com/<YOUR_NAME>/<YOUR_PROJECT_NAME>.git
+   ```
+   
+   Git will start downloading your repository to your local computer, while also keeping it connected to GitHub with Git running. So, you can already start
+   coding, without having to worry about other Git details!
+
 ***
 
 ## 🏁 Running the server
 
-This project was made using [ExpressJS](https://github.com/expressjs/express), so you must have the latest stable versions of [Node.js](https://nodejs.org/en/download/) 
-and [npm](https://www.npmjs.com/) running correctly in your machine.
+This project was made using [ExpressJS](https://github.com/expressjs/express), so you must have the latest stable versions of 
+[Node.js](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/) running correctly in your machine.
 
 Once you have cloned this repository into your own GitHub and then cloning it to your computer, you must open the respective project directory in you terminal
 and then run:
@@ -58,3 +79,8 @@ npm start
 
 :stop_sign: If you want to, visit [this repository](https://github.com/adnanbezerra/template-frontend) and pay a visit to the front-end application template with
 React. It already has a router, some basic structures, reset CSS and other pretty useful features to make your front-end programming easier and faster!
+
+## :thinking: How to use the error middleware?
+
+Well, as you must have noticed if you looked at it, the error middleware is quite complex to understand. To be honest, even I don't really know it properly;
+
