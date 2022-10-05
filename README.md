@@ -84,3 +84,6 @@ React. It already has a router, some basic structures, reset CSS and other prett
 
 Well, as you must have noticed if you looked at it, the error middleware is quite complex to understand. To be honest, even I don't really know it properly;
 
+Basically, what you have to do is import the specific functions. If you use VSCode, just type, for instance, "throws notFoundError()" and press tab. 
+The IDE will automatically handle the error. Also, if you want to include an error message, just type, for instance, "throws unauthorizedError("You must be logged in!").
+So, this way, the errors will work out just perfectly.
